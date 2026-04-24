@@ -89,7 +89,7 @@ export default function App() {
   return (
     <div className="relative min-h-screen bg-background text-cream">
       <div
-        className="pointer-events-none fixed inset-0 z-50 opacity-60 mix-blend-lighten"
+        className="pointer-events-none fixed inset-0 z-50 opacity-[0.14]"
         style={{
           backgroundImage: "url('/texture.png')",
           backgroundSize: "cover",
