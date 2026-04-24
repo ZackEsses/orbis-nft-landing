@@ -1,27 +1,27 @@
 import { ChevronRight, Github, Mail, Twitter } from "lucide-react"
 
-const navLinks = ["Homepage", "Gallery", "Buy NFT", "FAQ", "Contact"]
+const navLinks = ["Home", "Sources", "Lead Files", "FAQ", "Contact"]
 
 const collectionCards = [
   {
     video:
       "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_053923_22c0a6a5-313c-474c-85ff-3b50d25e944a.mp4",
-    score: "8.7/10",
+    score: "MCA intent / 8.7",
   },
   {
     video:
       "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_054411_511c1b7a-fb2f-42ef-bf6c-32c0b1a06e79.mp4",
-    score: "9/10",
+    score: "High revenue / 9.0",
   },
   {
     video:
       "https://d8j0ntlcm91z4.cloudfront.net/user_38xzZboKViGWJOttwIXH07lWA1P/hf_20260331_055427_ac7035b5-9f3b-4289-86fc-941b2432317d.mp4",
-    score: "8.2/10",
+    score: "Low competition / 8.2",
   },
 ]
 
 const decorativeCopy =
-  "A digital object fixed beyond time and place. An exploration of distance, form, and silence in space"
+  "Direct source lead files built from Google ads, Meta ads, email campaigns, and AI systems trained to surface cleaner MCA data with stronger response rates."
 
 function SocialStack({ className = "", mobile = false }: { className?: string; mobile?: boolean }) {
   const baseButton = mobile
@@ -109,7 +109,7 @@ export default function App() {
         <div className="relative z-10 mx-auto flex min-h-screen w-full max-w-shell flex-col px-5 pb-10 pt-6 sm:px-7 lg:px-10">
           <header className="flex items-center justify-between gap-6">
             <a href="#" className="font-grotesk text-[16px] uppercase tracking-[0.08em] text-cream">
-              Orbis.Nft
+              Signal Forge
             </a>
 
             <nav className="liquid-glass hidden rounded-[28px] px-[52px] py-[24px] lg:block">
@@ -133,11 +133,11 @@ export default function App() {
           <div className="relative flex flex-1 items-center py-12 sm:py-16">
             <div className="relative max-w-[780px] lg:ml-32">
               <h1 className="font-grotesk text-[40px] uppercase leading-[1.05] text-cream sm:text-[60px] md:text-[75px] md:leading-[1] lg:text-[90px] lg:leading-[1]">
-                <span className="block">Beyond earth</span>
-                <span className="block">and ( its ) familiar boundaries</span>
+                <span className="block">Direct source</span>
+                <span className="block">mca lead files</span>
               </h1>
               <span className="pointer-events-none absolute -right-2 top-[18%] rotate-[-1deg] font-condiment text-[24px] text-neon opacity-90 mix-blend-exclusion sm:-right-6 sm:text-[32px] md:text-[40px] lg:right-[-7rem] lg:top-[26%] lg:text-[48px]">
-                Nft collection
+                Google ads + AI
               </span>
 
               <SocialStack className="mt-10 lg:hidden" mobile />
@@ -161,16 +161,16 @@ export default function App() {
           <div className="flex flex-col justify-between gap-10 lg:flex-row lg:items-start">
             <div className="relative">
               <h2 className="font-grotesk text-[32px] uppercase leading-[0.95] text-cream sm:text-[44px] md:text-[52px] lg:text-[60px]">
-                <span className="block">Hello!</span>
-                <span className="block">I&apos;m orbis</span>
+                <span className="block">We build</span>
+                <span className="block">lead flow</span>
               </h2>
               <span className="pointer-events-none absolute bottom-[-0.65rem] right-[-0.2rem] rotate-[-2deg] font-condiment text-[36px] text-neon opacity-95 mix-blend-exclusion sm:text-[48px] md:text-[58px] lg:text-[68px]">
-                Orbis
+                direct source
               </span>
             </div>
 
             <p className="max-w-[266px] font-mono text-[14px] uppercase leading-[1.7] tracking-[0.08em] text-cream sm:text-[15px] md:text-[16px]">
-              {decorativeCopy}
+              We run Google ads, Meta ads, email campaigns, and special AI tech to capture high quality MCA data for clean files with strong response rates.
             </p>
           </div>
 
@@ -201,9 +201,9 @@ export default function App() {
           <div className="flex flex-col gap-10 lg:flex-row lg:items-end lg:justify-between">
             <div>
               <h2 className="font-grotesk text-[32px] uppercase leading-[0.95] text-cream sm:text-[44px] md:text-[52px] lg:text-[60px]">
-                <span className="block">Collection of</span>
+                <span className="block">Lead files for</span>
                 <span className="ml-12 block sm:ml-24 lg:ml-32">
-                  <span className="font-condiment normal-case text-neon">Space</span> objects
+                  <span className="font-condiment normal-case text-neon">MCA</span> teams
                 </span>
               </h2>
             </div>
@@ -211,14 +211,14 @@ export default function App() {
             <button type="button" className="group inline-flex w-fit flex-col items-start">
               <div className="flex items-end gap-3">
                 <span className="font-grotesk text-[32px] uppercase leading-none text-cream sm:text-[44px] md:text-[52px] lg:text-[60px]">
-                  See
+                  Get
                 </span>
                 <div className="flex flex-col pb-1">
                   <span className="font-grotesk text-[20px] uppercase leading-none text-cream sm:text-[26px] md:text-[32px] lg:text-[36px]">
-                    All
+                    Fresh
                   </span>
                   <span className="font-grotesk text-[20px] uppercase leading-none text-cream sm:text-[26px] md:text-[32px] lg:text-[36px]">
-                    Creators
+                    Files
                   </span>
                 </div>
               </div>
@@ -242,7 +242,7 @@ export default function App() {
                     <div className="liquid-glass flex items-center justify-between rounded-[20px] px-5 py-4">
                       <div>
                         <p className="font-grotesk text-[11px] uppercase tracking-[0.14em] text-cream/70">
-                          Rarity score:
+                          File type:
                         </p>
                         <p className="mt-1 font-grotesk text-[16px] uppercase text-cream">{card.score}</p>
                       </div>
@@ -277,13 +277,13 @@ export default function App() {
               <div className="ml-auto max-w-[980px] px-5 sm:px-7 lg:pl-[15%] lg:pr-[20%]">
                 <div className="relative text-right">
                   <span className="absolute left-0 top-[-1.2rem] font-condiment text-[17px] text-neon opacity-95 mix-blend-exclusion sm:text-[28px] md:text-[42px] lg:text-[68px]">
-                    Go beyond
+                    ready to blast
                   </span>
                   <h2 className="font-grotesk text-[16px] uppercase leading-[1.05] text-cream sm:text-[26px] md:text-[42px] lg:text-[60px]">
-                    <span className="mb-4 block sm:mb-7 lg:mb-12">Join us.</span>
-                    <span className="block">Reveal what&apos;s hidden.</span>
-                    <span className="block">Define what&apos;s next.</span>
-                    <span className="block">Follow the signal.</span>
+                    <span className="mb-4 block sm:mb-7 lg:mb-12">Direct source.</span>
+                    <span className="block">High revenue.</span>
+                    <span className="block">Low competition.</span>
+                    <span className="block">Built for sms response.</span>
                   </h2>
                 </div>
               </div>
